@@ -6,7 +6,7 @@ description: YAML Linter
 
 executors:
   default:
-    docker:
+    #docker:
       - image: cimg/python:3.10.4
 jobs:
   yamllint:

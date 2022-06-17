@@ -15,9 +15,6 @@ jobs:
     steps:
       - checkout
       - run: 
-          name: Install Dependencies
-          command: sudo apt-get update && sudo apt-get upgrade && sudo apt-get install -y apt-utils
-      - run: 
           name: Install Fortune
           command: sudo apt-get install -y fortune
       - run: 
